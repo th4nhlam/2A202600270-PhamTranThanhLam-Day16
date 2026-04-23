@@ -14,5 +14,5 @@ variable "hf_token" {
 variable "model_id" {
   description = "Hugging Face Model ID to serve"
   type        = string
-  default     = "google/gemma-4-E2B-it"
+  default     = "microsoft/Phi-3-mini-4k-instruct"
 }
